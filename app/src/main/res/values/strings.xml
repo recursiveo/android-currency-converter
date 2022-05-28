@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MD_session2</string>
+    <string name="usd">USD</string>
+    <string name="enter_usd_amount">Enter USD amount</string>
+    <string name="cad">CAD</string>
+    <string name="cad_amount">CAD Amount</string>
+</resources>
