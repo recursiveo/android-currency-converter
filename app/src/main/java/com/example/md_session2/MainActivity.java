@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
             }else{
                 editText1.setText("");
                 editText2.setText("");
+
+                Toast.makeText(this, "Enter any one value", Toast.LENGTH_SHORT).show();
             }
 
         }
